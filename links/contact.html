@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Les 15 - Mijn page met CV en contactformulier">
+    <meta name="keywords" content="CV, hond, Cane Corso">
+    <meta name="author" content="JBK Designs">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Pagina - Contact</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    </head>
+<body>
+    <header id="header">
+        <h1 id="site-title">Contactformulier</h1>
+    </header>
+    <nav id="primaire-nav">
+        <form class="navform" method="get" action="../index.html" target="_blank">
+            <button id="button1">Home</button></form>
+            <span class="text-separator">|</span>
+        <form class="navform" method="get" action="mijncv.html" target="_blank">
+            <button id="button2">Mijn CV</button></form>
+            <span class="text-separator">|</span>
+        <form class="navform" method="get" action="contact.html" target="_blank">    
+            <button id="button3">Contact</button></form>
+    </nav>
+        <section class="inhoud">
+        <div class="contactform">
+            <form id="form_content" action="https://formspree.io/f/mqkndozz" method="POST" target="blank">
+            <h2>Contactformulier</h2><br>
+            <label>Naam :<input name="naam" type="text" placeholder="Voornaam"></label>
+            <label>Achternaam :<input type="text" placeholder="Achternaam"></label>
+            <label>Telefoonnummer :<input type="number" placeholder="0123456789"></label>
+            <label>Emailadres :<input type="email" placeholder="uwmail@provider.nl"></label>
+            <label>Uw bericht :<textarea placeholder="Uw bericht"></textarea></label>
+            <button id="zendknop"><strong>Verzend</strong></button>
+            </form>
+        </div>
+    </section>    
+    <nav id="voet-nav">
+        <a href="mailto:invisforum@gmail.com">Mail ons</a>
+    </nav>
+    <footer id="footer" class="left">
+        <div>
+            &copy; 2022 JBK Designs
+        </div>
+    </footer>
+</body>
+</html>
