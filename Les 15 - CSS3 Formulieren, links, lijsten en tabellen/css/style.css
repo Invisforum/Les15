@@ -1,0 +1,134 @@
+body    {
+    font-family: 'Acme', sans-serif;
+    line-height: 1.5;
+    width: 1600px;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto; }
+
+/* koppen */
+h1,h2  {
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 0.3em;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 1); }
+
+/* tekst elementen */
+p { margin-bottom: 1em;}
+
+/* Header */
+#header {
+    background-color: #009999;
+    height: 120px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 5px; }
+
+#site-title {
+    color: white;
+    font-size: 2.2em;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding-top: 20px; }
+
+/* Primaire navigatie */
+#primaire-nav {
+    background-color: black;
+    text-align: center;
+    padding: 8px 0px;}
+
+.navform {
+    display: inline-block; }
+
+#button1:hover, #button2:hover, #button3:hover {
+    background-color: #00cccc;}
+
+#primaire-nav span.text-separator {
+    color: #009999;
+    font-weight: bold; 
+    margin-right: 5px;
+    margin-left: 5px; }
+
+/* Table, Image */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+    /* Inhoud */
+.inhoud {
+    color: #000;
+    font-size: 1.1em;
+    background-color: rgba(199, 199, 199, 0.58);
+    padding: 20px; }
+
+
+#table {  table-layout: fixed;
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto; 
+          border: 2px solid;
+          background-color: #c9c9c9; }
+
+p { background-color: #c9c9c9;}
+
+#werkervaring, #opleiding { font-weight: bold; 
+    background-color: #00cccc;
+    text-align: center; }
+
+/* Contactformulier */
+
+.contactform { background-color: #c9c9c9;
+               text-align: center; 
+               }
+
+label { padding-left: 5px; }
+
+input {
+    margin: 5px 0px;
+    width: 30%; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block; }
+    
+
+button:active {
+    background-color: #009999;
+    color: white;
+    border-radius: 4px; }
+
+textarea { height: 60px;
+           margin-left: auto;
+           margin-right: auto;
+           display: block;  }
+
+#zendknop { display: block;
+           margin-left: auto;
+           margin-right: auto;
+           margin-top: 5px; }
+                    
+th, td { border: 2px solid black; }
+
+/* Navigatie in de voet */
+#voet-nav {
+    background-color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 1.1em;
+    height: 30px; 
+    text-align: center;
+    padding: 5px; }
+
+#voet-nav a {
+    color: white;
+    text-decoration: none; }
+
+#voet-nav a:hover { color: #009999; }
+
+ /* Footer */
+ #footer {
+    background-color: #009999; 
+    color: black;
+    padding: 5px;
+    text-align: center; }
